@@ -1,0 +1,5 @@
+首先创建一个app，它是一个框架，然后要将这个app注册，就是将它写到setting.py中
+然后建立好model，也要注册，在admin.py中注册，
+之后数据库迁移manage migration -->manage migrate -->
+createsuperuser ,就可以访问admin/了，然后添加model了
+创建model后，如果你要是想访问他，就得将其导入进来，即将其赋予给一个变量，然后传到一个字典中，在界面中获取。
